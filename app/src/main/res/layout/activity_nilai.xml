@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".nilai"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/menu_bg"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="140dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/comic"
+            android:text="Skor Anda"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+             />
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comic"
+            android:gravity="center"
+            android:text="000"
+            android:textColor="#FFFFFF"
+            android:textSize="57dp"
+             />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/lanjut"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/comic"
+            android:onClick="kembali"
+            android:text="Kembali"
+            android:textColor="#FFFFFF"
+           />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

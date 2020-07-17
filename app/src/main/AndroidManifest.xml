@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proximastudio.quizpintar">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/apptheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8201627220488781~5498721887"/>
+
+
+        <activity android:name="com.proximastudio.quizpintar.kategori"></activity>
+        <activity android:name="com.proximastudio.quizpintar.nilai" />
+        <activity android:name="com.proximastudio.quizpintar.about" />
+        <activity android:name="com.proximastudio.quizpintar.setelan" />
+        <activity android:name="com.proximastudio.quizpintar.challenge" />
+        <activity android:name="com.proximastudio.quizpintar.mulai" />
+        <activity android:name="com.proximastudio.quizpintar.main" />
+        <activity android:name="com.proximastudio.quizpintar.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
